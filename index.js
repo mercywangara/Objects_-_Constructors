@@ -56,7 +56,10 @@ user3.withdraw(300);
 
 //question two
 
-//
+//Create an object named taskList with an array named tasks
+//Use the addTask(task) method to add tasks to tasks
+//Use the completeTask(task) method to remove tasks form tasks if found
+//Use the listTasks method to print all remaining tasks 
 const tasklist = {
     tasks:[],
 
@@ -113,6 +116,11 @@ tasklist.listTasks();
 
 
 //question three
+
+//Initiate an object named Student(name, scores)
+//Use the getAverage() method to return average of scores
+//Use the hasPassed() method to return true if the average is >=50
+//Create and test 2 students
 function Student (name, scores){
     this.name = name;
     this.scores = scores;
@@ -139,30 +147,11 @@ console.log(`${student2.name} Average: ${student2.getAverage()}, Passed: ${stude
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //question four
+
+//Create an object called ShoppingCart with an array called items
+//Use the addItem(item) method to push items into items
+//Use the getTotal() method to sum up all prices and return total
 const Shoppingcart = {
     items:[],
 
@@ -189,25 +178,11 @@ console.log(`Total: ${Shoppingcart.getTotal()}`);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //question five
+//Create a constructor named Movie(title, year, rating)
+//Use the isClassic() method to return true if year is < 2000
+//Use the recommend() method to return "Highly recommended!" if rating is >8
+//Create and test three movies
 function Movie(title, year, rating){
     this.title =  title;
     this.year = year;
